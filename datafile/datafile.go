@@ -22,6 +22,7 @@ func GetFloats(fileName string) ([]float64, error) {
 		}
 		numbers = append(numbers, x)
 	}
+	// hello
 	err = file.Close()
 	if err != nil {
 		return numbers, err
